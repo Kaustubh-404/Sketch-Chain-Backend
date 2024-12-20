@@ -50,7 +50,7 @@ npm install
 yarn install
 
 # Set up environment variables
-cp .env.example .env.local
+cd .env.example 
 
 # Start the frontend development server
 npm run dev
@@ -72,6 +72,9 @@ cd backend
 
 # Install backend dependencies
 npm install
+
+# Set up environment variables
+cd .env.example 
 
 # Start the backend server
 npm run dev
